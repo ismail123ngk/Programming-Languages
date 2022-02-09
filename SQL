@@ -1,1 +1,18 @@
-Command to select particular coloumn in a table
+//Command to select particular column in a table
+SELECT coulumn_name1,column_name2,.... FROM table_name
+
+//To select all columns in a table
+SELECT FROM * Table_name;
+
+//select the distinct items int he column
+SELECT DISTINCT column_name1,column_name2,... FROM Table_name;
+
+//to count the distinct items in the column
+SELECT COUNT(DISTINCT column_name) FROM Table_name;    //you can give only one column for the COUNT()
+
+//The SQL WHERE Clause
+//The WHERE clause is used to filter records.
+//It is used to extract only those records that fulfill a specified condition
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
