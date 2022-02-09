@@ -1,0 +1,1 @@
+Command to select particular coloumn in a table
